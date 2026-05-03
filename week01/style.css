@@ -1,0 +1,18 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#h_left {
+    display: flex;
+}
+
+#h_right {
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
