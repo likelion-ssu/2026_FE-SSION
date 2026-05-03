@@ -1,18 +1,24 @@
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
-#h_left {
+.h_left {
     display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
-#h_right {
+.h_right {
     display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
 }
 
 .title {
     display: flex;
     justify-content: center;
 }
+
