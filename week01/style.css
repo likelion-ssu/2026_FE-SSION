@@ -8,6 +8,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-left: 4rem;
 }
 
 .h_right {
@@ -15,10 +16,39 @@ header {
     justify-content: flex-end;
     flex-direction: row;
     align-items: center;
+    margin-right: 4rem;
 }
 
 .title {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 
+#title_name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 3.5rem;
+}
+
+#title_etc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 45rem;
+    margin-right: 45rem;
+}
+
+.nav_ch {
+    display: flex;
+}
