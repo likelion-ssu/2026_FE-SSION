@@ -1,3 +1,12 @@
+html {
+    background: rgb(252, 244, 230);
+}
+
+span {
+    color: rgb(174, 174, 174);
+    padding-left: 1rem;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -51,11 +60,18 @@ header {
 
 .nav_ch {
     display: flex;
+    font-size: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    border: 1px solid black;
 }
 
 #img1_cont {
-    width: 25rem;
-    height: 20rem;
+    background: white;
+    width: 23rem;
+    height: 16rem;
     margin-left: 2rem;
     margin-right: 2rem;
     margin-top: 1rem;
@@ -63,14 +79,19 @@ header {
 }
 
 #img1 {
-    width: 25rem;
-    height: 15rem;
+    width: 21rem;
+    height: 11rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
 
 .img1_txt1 {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
 }
 
 .floor1 {
