@@ -66,10 +66,16 @@ body {
 
 .project-list {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    gap: 60px;
     justify-content: center;
+    justify-items: center;
     margin-top: 30px;
+    row-gap: 2.5rem;
+    column-gap: 3.75rem;
+    max-width: 70rem;
+    width: 100%;
+    margin-inline: auto;
 }
 
 .project-item {
@@ -78,14 +84,11 @@ body {
     /* border-radius: 5px; */
     padding: 10px;
     text-align: center;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .project-img img {
     width: 100%;
     height: auto;
-    /* border-radius: 4px; */
-    margin-bottom: 15px;
 }
 
 .project-top {
