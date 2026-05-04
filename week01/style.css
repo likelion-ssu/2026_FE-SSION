@@ -1,5 +1,16 @@
 html {
-    background: rgb(252, 244, 230);
+    background: #F9F8F5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden; 
 }
 
 span {
@@ -36,8 +47,9 @@ header {
     justify-content: space-between;
     width: 100vw;
     align-items: center;
+    padding-top: 0.5rem;
     padding-bottom: 0.5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
 }
 
 .h_left {
@@ -83,7 +95,7 @@ header {
     flex-direction: row;
     justify-content: center;
     width: 100%;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid gray;
     width: 100vw;
 }
 
