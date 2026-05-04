@@ -146,28 +146,34 @@ body {
 }
 
 .card-title-row {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
   gap: 16px;
 }
 
 .card-title-row h2 {
   margin: 0;
-  flex: 1;
   font-size: 16px;
   font-weight: 500;
+  justify-self: start;
 }
 
-.card-title-row span,
+.card-title-row span{
+    justify-self: center;
+}   
+
 .card-title-row strong {
   font-size: 15px;
   font-weight: 800;
+  justify-self: end;
 }
 
 .card-content p {
   margin: 8px 0 0;
   font-size: 13px;
   color: #b4b4b4;
+  font-weight: 300;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
