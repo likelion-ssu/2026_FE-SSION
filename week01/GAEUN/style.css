@@ -11,8 +11,8 @@ body {
 
 
 .header {
-  height: 48px;
-  padding: 0 170px;
+  height: 58px;
+  padding: 0 250px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,40 +26,43 @@ body {
 .header-left {
   display: flex;
   align-items: center;
+  margin-left: 41px; 
   gap: 5px;
 }
 
 .brand {
-  font-size: 15px;
+  font-size: 15.2px;
   color: #ff5a00;
-  font-weight: 500;
+  font-weight: 600;
   font-family: serif;
+  letter-spacing: 0.2px;
 }
 
 .header-menu {
   display: flex;
   align-items: center;
-  gap: 26px;
+  margin-right: 42px;
+  gap: 45px;
 }
 
 .recruit-box {
   display: flex;
   align-items: center;
-  gap: 6px;
+  gap: 10px;
   border-bottom: 1px solid #111;
   padding-bottom: 2px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 3px;
   font-family:  Gaegu;
 }
 
 .recruit {
-  width: 15px;
+  width: 17px;
 }
 
 .menu {
-  width: 18px;
+  width: 20px;
 }
 
 .project-title {
@@ -121,18 +124,18 @@ body {
 }
 
 
-/* ===== CARD ===== */
+/* == CARD == */
 .project-grid {
   width: 1120px;
   margin: 32px auto 70px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   column-gap: 64px;
-  row-gap: 52px;
+  row-gap: 50px;
 }
 
 .project-card {
-  width: 320px;
+  width: 330px;
   background-color: white;
   padding: 15px;
 }
