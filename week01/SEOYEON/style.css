@@ -6,12 +6,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 15px;
-    padding-top: 12px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 12px 40px 15px;
     font-size: 16px;
-    margin-bottom: 40px;
     border-bottom: 1px solid #dedede;
 }
 
@@ -33,9 +29,7 @@ body {
 
 #main {
     text-align: center;
-    align-items: center;
-    flex-direction: column;
-    margin: 40px 40px 40px;
+    margin: 40px 40px;
 }
 
 .main-title h1 {
@@ -70,7 +64,6 @@ body {
 .project-list {
     display: grid;
     grid-template-columns: repeat(3, minmax(0px, 1fr));
-    gap: 60px;
     justify-content: center;
     justify-items: center;
     margin-top: 30px;
@@ -85,9 +78,8 @@ body {
     background-color: #fff;
     /* border: 1px solid #dedede; */
     /* border-radius: 5px; */
-    padding: 10px;
+    padding: 10px 10px 15px;
     text-align: center;
-    padding-bottom: 15px;
 }
 /* 
 .project-img {
@@ -118,7 +110,6 @@ body {
 
 #footer {
     font-size: 14px;
-    margin-top: 60px;
     margin: 80px 40px 40px;
     color: #686868;
 }
