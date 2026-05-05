@@ -112,3 +112,48 @@ body {
     justify-self: start;
     margin: 0px 0;
 }
+
+#footer {
+    font-size: 14px;
+    margin-top: 60px;
+    margin: 80px 40px 40px;
+    color: #686868;
+}
+
+.footer-top {
+    padding: 12px 20px;
+}
+
+.footer-menu {
+    margin: 0;
+}
+
+.footer-divider {
+    height: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 14px 20px;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-left p, .footer-right p {
+    margin: 0;
+}
+
+.footer-right {
+    align-items: flex-end;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+}
