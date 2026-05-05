@@ -1,0 +1,188 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body, main {
+  background-color: #fbfaf7;
+}
+
+body {
+  margin: 0;
+  background-color: #fbfaf7;
+  color: #111;
+  font-family: "Pretendard", sans-serif;
+}
+
+
+.header {
+  height: 47px;
+  padding: 0 160px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #d8d5cf;
+}
+
+.logo {
+  width: 16px;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.brand {
+  font-size: 14px;
+  color: #ff5a00;
+  font-weight: 600;
+  font-family: serif;
+  letter-spacing: 0.2px;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  gap: 43px;
+}
+
+.recruit-box {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #111;
+  padding-bottom: 2px;
+  font-size: 12px;
+  font-weight: 580;
+  letter-spacing: 3px;
+  font-family:  Gaegu;
+}
+
+.recruit {
+  width: 17px;
+}
+
+.menu {
+  width: 18px;
+}
+
+.project-title {
+  text-align: center;
+  padding-top: 28px;
+}
+
+.project-title h1 {
+  font-family: Pretendard, sans-serif;   
+  margin: 0;
+  font-size: 42px;
+  font-weight: 660;
+  letter-spacing: -0.5px;
+}
+
+.project-title p {
+  margin-top: 8px;
+  font-size: 12px;
+  font-weight: 160;
+  letter-spacing: 1px;
+  color: #111;
+}
+
+.category {
+  width: 440px;
+  height: 34px;
+  margin: 22px auto 0;
+  display: flex;
+  border: 1px solid #e3dfd8;
+  background-color: transparent;
+}
+
+.category button {
+  flex: 1;
+  border: none;
+  border-right: 1px solid #e3dfd8;
+  background-color: transparent;
+  font-size: 11px;
+  color: #aaa;
+}
+
+.category button:last-child {
+  border-right: none;
+}
+
+.category .active {
+  background-color: white;
+  color: #ff5a00;
+  font-weight: 700;
+}
+
+.section-line {
+  width: 100%;
+  border-top: 1px solid #d8d5cf;
+  margin-top: 0;
+}
+
+
+/* == CARD == */
+.project-grid {
+  width: fit-content;
+  margin: 40px auto 0;
+  display: grid;
+  grid-template-columns: repeat(3, 290px);
+  column-gap: 75px;
+  row-gap: 32px;
+}
+
+.project-card {
+  width: 290px;
+  background-color: white;
+  padding: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  display: block;
+}
+
+.card-content {
+  margin-top: 8px;
+}
+
+.card-title-row {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+  gap: 0;
+}
+
+.card-title-row h2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  justify-self: start;
+}
+
+.card-title-row span{
+    font-size: 15px;
+    font-weight: 500;
+    justify-self: center;
+}   
+
+.card-title-row strong {
+  font-size: 14px;
+  font-weight: 500;
+  justify-self: end;
+}
+
+.card-content p {
+  margin: 9px 0 0;
+  font-size: 12px;
+  color: #b4b4b4;
+  font-weight: 250;
+  letter-spacing: 0.8px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
