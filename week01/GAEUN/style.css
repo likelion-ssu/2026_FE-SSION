@@ -11,8 +11,8 @@ body {
 
 
 .header {
-  height: 58px;
-  padding: 0 250px;
+  height: 47px;
+  padding: 0 285px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,7 +26,6 @@ body {
 .header-left {
   display: flex;
   align-items: center;
-  margin-left: 41px; 
   gap: 5px;
 }
 
@@ -41,14 +40,13 @@ body {
 .header-menu {
   display: flex;
   align-items: center;
-  margin-right: 42px;
-  gap: 45px;
+  gap: 43px;
 }
 
 .recruit-box {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   border-bottom: 1px solid #111;
   padding-bottom: 2px;
   font-size: 13px;
@@ -62,25 +60,25 @@ body {
 }
 
 .menu {
-  width: 20px;
+  width: 18px;
 }
 
 .project-title {
   text-align: center;
-  padding-top: 37px;
+  padding-top: 28px;
 }
 
 .project-title h1 {
   font-family: Pretendard, sans-serif;   
   margin: 0;
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 660;
   letter-spacing: -0.5px;
 }
 
 .project-title p {
-  margin-top: 12px;
-  font-size: 13.5px;
+  margin-top: 8px;
+  font-size: 12px;
   font-weight: 160;
   letter-spacing: 1px;
   color: #111;
@@ -89,7 +87,7 @@ body {
 .category {
   width: 440px;
   height: 34px;
-  margin: 30px auto 0;
+  margin: 22px auto 0;
   display: flex;
   border: 1px solid #e3dfd8;
   background-color: transparent;
@@ -115,40 +113,37 @@ body {
 }
 
 .section-line {
-  width: 100vw;
+  width: 100%;
   border-top: 1px solid #d8d5cf;
   margin-top: 0;
-  position: relative;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 
 /* == CARD == */
 .project-grid {
-  width: 1120px;
-  margin: 32px auto 70px;
+  width: 990px;
+  margin: 22px auto 0;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  column-gap: 64px;
-  row-gap: 50px;
+  grid-template-columns: repeat(3, 280px);
+  column-gap: 75px;
+  row-gap: 28px;
 }
 
 .project-card {
-  width: 330px;
+  width: 280px;
   background-color: white;
-  padding: 15px;
+  padding: 10px;
 }
 
 .project-card img {
   width: 100%;
-  height: 165px;
+  height: 142px;
   object-fit: cover;
   display: block;
 }
 
 .card-content {
-  margin-top: 10px;
+  margin-top: 8px;
 }
 
 .card-title-row {
@@ -160,26 +155,26 @@ body {
 
 .card-title-row h2 {
   margin: 0;
-  font-size: 16px;
+  font-size: 13px;
   font-weight: 500;
   justify-self: start;
 }
 
 .card-title-row span{
-    font-size: 16px;
-    font-weight: 500;
+    font-size: 13px;
+    font-weight: 600;
     justify-self: center;
 }   
 
 .card-title-row strong {
-  font-size: 15px;
-  font-weight: 570;
+  font-size: 13px;
+  font-weight: 600;
   justify-self: end;
 }
 
 .card-content p {
-  margin: 8px 0 0;
-  font-size: 13px;
+  margin: 6px 0 0;
+  font-size: 11px;
   color: #b4b4b4;
   font-weight: 300;
   white-space: nowrap;
