@@ -25,5 +25,17 @@ nav {
 .nav-right {
     display: flex;
     align-items: center;
-    gap: 56px;
+    gap: 36px;
+}
+
+.project-title {
+    justify-items: center;
+    height: 130px;
+
+}
+
+.project-menu {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
 }
