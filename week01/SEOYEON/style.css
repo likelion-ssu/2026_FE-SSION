@@ -12,13 +12,13 @@ body {
     font-size: 16px;
 }
 
-.left, .right {
+.header-left, .header-right {
     display: flex;
     align-items: center;
     gap: 8px;
 }
 
-.left span {
+.header-left span {
     color: #ff5e24;
 }
 
