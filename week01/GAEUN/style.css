@@ -6,13 +6,13 @@ body {
   margin: 0;
   background-color: #f8f7f3;
   color: #111;
-  font-family: Pretendard, sans-serif;
+  font-family: "Pretendard", sans-serif;
 }
 
 
 .header {
   height: 47px;
-  padding: 0 285px;
+  padding: 0 160px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -20,7 +20,7 @@ body {
 }
 
 .logo {
-  width: 18px;
+  width: 16px;
 }
 
 .header-left {
@@ -30,7 +30,7 @@ body {
 }
 
 .brand {
-  font-size: 15.2px;
+  font-size: 14px;
   color: #ff5a00;
   font-weight: 600;
   font-family: serif;
@@ -49,8 +49,8 @@ body {
   gap: 8px;
   border-bottom: 1px solid #111;
   padding-bottom: 2px;
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 12px;
+  font-weight: 580;
   letter-spacing: 3px;
   font-family:  Gaegu;
 }
@@ -122,7 +122,7 @@ body {
 /* == CARD == */
 .project-grid {
   width: 990px;
-  margin: 22px auto 0;
+  margin: 40px auto 0;
   display: grid;
   grid-template-columns: repeat(3, 280px);
   column-gap: 75px;
@@ -131,6 +131,7 @@ body {
 
 .project-card {
   width: 280px;
+  height: 220px;
   background-color: white;
   padding: 10px;
 }
@@ -155,28 +156,29 @@ body {
 
 .card-title-row h2 {
   margin: 0;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   justify-self: start;
 }
 
 .card-title-row span{
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 15px;
+    font-weight: 500;
     justify-self: center;
 }   
 
 .card-title-row strong {
-  font-size: 13px;
-  font-weight: 600;
+  font-size: 14px;
+  font-weight: 500;
   justify-self: end;
 }
 
 .card-content p {
-  margin: 6px 0 0;
-  font-size: 11px;
+  margin: 9px 0 0;
+  font-size: 12px;
   color: #b4b4b4;
-  font-weight: 300;
+  font-weight: 250;
+  letter-spacing: 0.8px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
