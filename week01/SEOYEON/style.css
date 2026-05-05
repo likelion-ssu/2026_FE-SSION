@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'BukMyeongjo';
+    src: local('BukMyeongjo'), local('북명조체'), local('BM Euljiro TTF');
+}
+
+body {
+    background-color: #f9f8f5;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px 15px;
+    font-size: 16px;
+    border-bottom: 1px solid #dedede;
+}
+
+.header-left, .header-right {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-left span {
+    color: #ff5e24;
+    font-weight: 600;
+    font-family: 'BukMyeongjo', serif;
+}
+
+.recruit {
+    margin-right: 25px;
+    border-bottom: 1px solid;
+
+}
+
+#main {
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.main-title h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.main-subtitle p {
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nav-menu {
+    font-size: 13px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid #dedede;
+}
+
+.nav-item {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.nav-item.active {
+    color: #ff5e24;
+}
+
+.project-list {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0px, 1fr));
+    justify-content: center;
+    justify-items: center;
+    padding: 30px 0;
+    row-gap: 2.5rem;
+    column-gap: 3.75rem;
+    max-width: 70rem;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.project-item {
+    background-color: #fff;
+    /* border: 1px solid #dedede; */
+    /* border-radius: 5px; */
+    padding: 10px 10px 15px;
+    text-align: center;
+    width: 100%;
+}
+.project-img {
+    height: 180px;
+    overflow: hidden;
+}
+
+.project-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 14px;
+    font-weight: 300;
+    color: #b5b5b5;
+    justify-self: start;
+    margin: 0;
+}
+
+#footer {
+    font-size: 14px;
+    /* margin: 80px 40px 40px; */
+    color: #686868;
+    padding: 30px 40px;
+}
+
+.footer-top {
+    padding: 12px 0;
+}
+
+.footer-menu {
+    margin: 0;
+}
+
+.footer-divider {
+    height: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 14px 0;
+}
+
+.footer-left, .footer-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-left p, .footer-right p {
+    margin: 0;
+}
+
+.footer-right {
+    align-items: flex-end;
+}
+
+.contact-info {
+    display: flex;
+    gap: 30px;
+}
