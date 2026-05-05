@@ -31,19 +31,20 @@ body {
 
 }
 
-#nav {
+#main {
     text-align: center;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 40px 40px;
 }
 
-.nav-header h1 {
+.main-title h1 {
     font-size: 48px;
     font-weight: bold;
-    margin-bottom: 1px;
+    margin: 0;
 }
 
-.nav-header p {
+.main-subtitle p {
     font-size: 15px;
     font-weight: 300;
 }
@@ -53,7 +54,6 @@ body {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 30px;
     padding-bottom: 2px;
     border-bottom: 1px solid #dedede;
 }
