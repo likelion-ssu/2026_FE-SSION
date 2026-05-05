@@ -88,12 +88,12 @@ body {
     /* border-radius: 5px; */
     padding: 10px 10px 15px;
     text-align: center;
+    width: 100%;
 }
-/* 
 .project-img {
     height: 180px;
     overflow: hidden;
-} */
+}
 
 .project-img img {
     width: 100%;
