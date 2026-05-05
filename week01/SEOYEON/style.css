@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'BukMyeongjo';
+    src: local('BukMyeongjo'), local('북명조체'), local('BM Euljiro TTF');
+}
+
 body {
     background-color: #f4f2f1;
 }
@@ -19,6 +24,8 @@ body {
 
 .header-left span {
     color: #ff5e24;
+    font-weight: 600;
+    font-family: 'BukMyeongjo', serif;
 }
 
 .recruit {
