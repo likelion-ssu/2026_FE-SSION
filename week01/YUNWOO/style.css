@@ -97,3 +97,43 @@ article img {
     margin: 8px 0 0;
     color: #aaa;
 }
+
+.footer {
+    height: 60px;
+    padding: 80px 60px 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
+    color: #8f8f8f;
+    
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #8f8f8f;
+}
+
+.footer-menu {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.footer-left p,
+.footer-right p {
+    margin: 0 0 14px;
+}
+
+.footer-right {
+    text-align: right;
+}
+
+.footer-contact {
+    display: flex;
+    gap: 32px;
+    margin-bottom: 18px;
+}
