@@ -41,7 +41,19 @@ article img {
 .project-menu {
     display: flex;
     justify-content: center;
-    gap: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.project-menu button {
+    width: 120px;
+    height: 32px;
+    
+    background-color : #f9f8f5;
+    border: 1px solid #ddd;
+    
+    color: #999;
+
+    cursor: pointer;
 }
 
 .project-list {
