@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-bottom: 0.7px solid #d2d2d1;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+    width: 112px;
+    height: 33px;
+    padding: 8px 10px;
+    margin: 0px;
+    border: 1px solid #0202024d;
+    background-color: transparent;
+    font-size: 13px;
+    color: #0202024d;
+    cursor: pointer;
+}
+
+.btn1 {
+    color: #FF5202;
+    background-color: white;
+}

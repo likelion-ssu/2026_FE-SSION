@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+.grid{
+    display: grid;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 330px);
+    grid-template-rows: auto;
+    grid-template-areas:
+    "project1 project2 project3"
+    "project4 project5 project6";
+    gap: 2.5rem 3.75rem;
+    padding: 32px;
+}
+
+.grid img{
+    width: 100%;
+    height: 180px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.grid .project_info {
+    color: #020202;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+}
+
+.grid p {
+    margin: 0px;
+    color: #0202024d;
+    font-size: 14px;
+}
+
+.project1{
+    grid-area: project1;
+    padding: 10.08px;
+    background-color: white;
+}
+
+.grid .h {
+    width: 100%; 
+    height: 13px;
+    background-color: white;
+}
+
+
+
+.project2{
+    grid-area: project2;
+    padding: 10.08px;
+    background-color: white;  
+}  
+
+.project3{
+    grid-area: project3;
+    padding: 10.08px;
+    background-color: white;
+}
+
+.project4{
+    grid-area: project4;
+    padding: 10.08px;
+    background-color: white;
+}
+
+.project5{
+    grid-area: project5;
+    padding: 10.08px;
+    background-color: white;
+}
+
+.project6{
+    grid-area: project6;
+    padding: 10.08px;
+    background-color: white;
+}
