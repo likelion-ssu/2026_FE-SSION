@@ -19,14 +19,16 @@ nav {
 
 .logo {
     color: #ff5202;
+    display: flex;
+    align-items: center;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.recruit {
+    font-family: 'JetBrains Mono', monospace;
 }
 
 article img {
-    align-items: center;
-}
-
-.logo {
-    display: flex;
     align-items: center;
 }
 
@@ -69,6 +71,12 @@ article img {
     color: #999;
 
     cursor: pointer;
+}
+
+.project-menu .active {
+    background-color: white;
+    color: #ff5202;
+    font-weight: 700;
 }
 
 .project-list {
