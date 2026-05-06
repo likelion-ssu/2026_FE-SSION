@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color : ivory;
+    background-color : #f9f8f5;
 }
 
 header {
@@ -14,6 +14,10 @@ nav {
     height: 100%;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+article img {
     align-items: center;
 }
 
