@@ -69,3 +69,15 @@ article img {
     object-fit: cover;
     display: block;
 }
+
+.project-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.project-info p {
+    margin: 8px 0 0;
+    color: #aaa;
+}
