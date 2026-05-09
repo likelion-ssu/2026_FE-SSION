@@ -26,7 +26,7 @@ body {
 #right {
     display: flex;
     flex-direction: column;
-    width: 25vw;
+    width: 23vw;
     height: 98vh;
     border: 1px solid blue;
 }
@@ -78,4 +78,16 @@ img {
 
 .txt{
     color: blue;
+}
+
+.right-bottom-detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-bottom-detail-ex {
+    display: flex;
+    flex-direction: column;
 }
