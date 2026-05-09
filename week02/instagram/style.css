@@ -1,0 +1,29 @@
+html {
+    display: flex;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    display: flex;
+    width: 25vw;
+    height: 98vh;
+    border: 1px solid black;
+}
+
+#center {
+    display: flex;
+    width: 50vw;
+    height: 98vh;
+    border: 1px solid red;
+}
+
+#right {
+    display: flex;
+    width: 25vw;
+    height: 98vh;
+    border: 1px solid blue;
+}
