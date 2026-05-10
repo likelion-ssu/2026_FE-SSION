@@ -7,6 +7,8 @@ body {
     flex-direction: row;
 }
 
+
+
 #left {
     display: flex;
     width: 25vw;
@@ -140,11 +142,47 @@ body {
 }
 
 .center-bottom-img {
-    width: 1rem;
-    height: 1rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.center-bottom-up-img {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 0.3rem;
 }
 
 #main-img {
     width: 30vw;
     height: 60vh;
+}
+
+#center-bottom-one {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.3rem;
+}
+
+#center-bottom-two {
+    display: flex;
+    margin-top:0.2rem;
+    margin-bottom: 0.2rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#center-bottom-three {
+    margin-bottom: 0.2rem;
+}
+
+#center-bottom-four {
+    margin-bottom: 0.2rem;
+}
+
+#center-bottom-five {
+    margin-bottom: 0.2rem;
+}
+
+.span {
+    padding-left: 0.3rem;
 }
