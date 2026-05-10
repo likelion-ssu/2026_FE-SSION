@@ -34,8 +34,9 @@ body {
 
 img {
     border: 1px solid pink;
-    width: 10rem;
-    height: 4rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.5rem;
 }
 
 .left-top {
@@ -47,7 +48,6 @@ img {
 .left-center {
     display: flex;
     flex-direction: column;
-
 }
 
 .left-bottom {
@@ -59,11 +59,16 @@ img {
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
-.nav-img {
+.left-img {
     display: flex;
-    
+    border: 1px solid pink;
+    width: 1.5rem;
+    height: 1.5rem;
+    padding: 0.5rem 0.8rem; 
 }
 
 #right-top {
@@ -79,6 +84,11 @@ img {
 
 .txt{
     color: blue;
+    padding-left: 10rem;
+}
+
+.follow {
+    color: gray;
 }
 
 .right-bottom-detail {
