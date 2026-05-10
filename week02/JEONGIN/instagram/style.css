@@ -202,3 +202,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+
+.story {
+    font-size: 0.8rem;
+}
