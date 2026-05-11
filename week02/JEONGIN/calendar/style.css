@@ -1,0 +1,92 @@
+html {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 4rem;
+    height: 2rem;
+}
+
+.sunday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    color: red;
+    justify-content: center;
+    align-items: center;
+}
+
+.monday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.tuesday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.wednesday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.thursday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.friday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.saturday {
+    display: flex;
+    border: 1px solid black;
+    width: 2rem;
+    height: 2rem;
+    color: blue;
+    justify-content: center;
+    align-items: center;
+}
+
+.week {
+    display: flex;
+    flex-direction: row;
+}
+
+#out {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+}
+
+#year {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
