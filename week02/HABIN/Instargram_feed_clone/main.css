@@ -1,0 +1,86 @@
+.story_tray {
+    padding: 8px 9px;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 612px;
+    height: 108px;
+    gap: 20px;
+}
+.story img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    outline: 2px solid rgb(235, 81, 63);
+    object-fit: cover;
+}
+.story p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.story0 {
+    padding: 0%;
+    margin: 0%;
+}
+.story1 {
+    padding: 0%;
+    margin: 0%;
+}
+.story2 {
+    padding: 0%;
+    margin: 0%;
+}
+.story3 {
+    padding: 0%;
+    margin: 0%;
+}
+.story4 {
+    padding: 0%;
+    margin: 0%;
+}
+.story5 {
+    padding: 0%;
+    margin: 0%;
+}
+.story6 {
+    padding: 0%;
+    margin: 0%;
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_information {
+    width: 446px;
+    height: 32px;
+    padding: 0px 10px 12px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.user_information img {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    border-radius: 50%;
+    border: 0.8px solid #fff;
+    outline: 0.8px solid rgb(235, 81, 63);
+    object-fit: cover;
+}
+.feed_image {
+    width: 468px;
+    height: 624px;
+}
+
+.feed_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
