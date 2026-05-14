@@ -1,0 +1,28 @@
+.footer{
+    width: 383px;
+    height: 855px;
+    padding: 0 0 0 64px;
+}
+.footer_information{
+    width: 391px;
+    height: 548px;
+    margin: 36px 0 0;
+}
+.my_account{
+    width: 319px;
+    height: 44px;
+    padding: 0 16px;
+}
+.recommend_friend{
+    width: 319px;
+    height: 351px;
+    margin: 24px 0 8px;
+}
+.footer_information_list{
+    width: 287px;
+    height: 351px;
+    margin: 0 16px;
+}
+.Instargram_information{
+
+}
