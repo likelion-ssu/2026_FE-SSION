@@ -13,3 +13,16 @@ body {
     background-color: white;
     padding: 20px;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    border: 1px solid #ccc;
+}
