@@ -108,3 +108,31 @@
     width: 24px;
     height: 24px;
 }
+.feed_content_reaction{
+    width: 470px;
+    height: 92px;
+    padding: 0px 12px;
+}
+.feed_reaction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 446px;
+    height: 40px;
+    margin: 4px;
+}
+.feed_reaction img{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.feed_reaction_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 223px;
+    height: 40px;
+}
+.feed_reaction_right{
+    margin-left: 167px;
+}
