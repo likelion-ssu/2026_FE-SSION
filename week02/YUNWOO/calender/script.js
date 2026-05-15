@@ -1,7 +1,7 @@
 const monthYear = document.getElementById("month-year");
 const calenderBody = document.getElementById("calender-body");
 
-let currentDate = new Date();
+let currentDate = new Date(2026, 5, 15);
 
 function renderCalender() {
     const year = currentDate.getFullYear();
@@ -34,7 +34,9 @@ function renderCalender() {
         }
     }
 
-    calendarBody.appendChild(row);
+    if (row.children.length > 0) {
+        calenderBody.appendChild(row);
+    }
 }
 
-renderCalendar();
+renderCalender();
