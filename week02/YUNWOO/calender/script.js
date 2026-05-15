@@ -1,15 +1,15 @@
 const monthYear = document.getElementById("month-year");
-const calenderBody = document.getElementById("calender-body");
+const calendarBody = document.getElementById("calendar-body");
 
-let currentDate = new Date(2026, 5, 15);
+let currentDate = new Date(2026, 4, 15);
 
-function renderCalender() {
+function rendercalendar() {
     const year = currentDate.getFullYear();
     const month = currentDate.getMonth();
 
     monthYear.textContent = `${year}년 ${month + 1}월`;
 
-    calenderBody.innerHTML = "";
+    calendarBody.innerHTML = "";
 
     const firstDay = new Date(year, month, 1).getDay();
     
@@ -29,14 +29,24 @@ function renderCalender() {
         row.appendChild(cell);
 
         if ((firstDay + day) % 7 == 0) {
-            calenderBody.appendChild(row);
+            calendarBody.appendChild(row);
             row = document.createElement("tr");
         }
     }
 
     if (row.children.length > 0) {
-        calenderBody.appendChild(row);
+        calendarBody.appendChild(row);
     }
 }
 
-renderCalender();
+rendercalendar();
+
+prevBtn.addEventListener("click", function() {
+    currentDate.setMonth(currentDate.getMonth() -1);
+    rendercalendar();
+});
+
+nextBtn.addEventListener("click", function() {
+    currentDate.setMonth(currentDate.getMonth() + 1);
+    rendercalendar();
+})

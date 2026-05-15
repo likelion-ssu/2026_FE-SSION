@@ -9,7 +9,7 @@ body {
     height: 100vh;
 }
 
-.calender {
+.calendar {
     background-color: white;
     padding: 20px;
 }
@@ -25,4 +25,11 @@ td {
 
     text-align: center;
     border: 1px solid #ccc;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
