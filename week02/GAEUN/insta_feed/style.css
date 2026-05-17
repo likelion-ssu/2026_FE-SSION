@@ -87,7 +87,6 @@ body {
     padding-top: 1.5rem;
 }
 
-
 .stories {
     display: flex;
     justify-content: center;
@@ -157,11 +156,24 @@ body {
     margin-bottom: 0.7rem;
 }
 
-.profile-circle {
-    width: 2rem;
-    height: 2rem;
+.profile-img {
+    width: 2.7rem;
+    height: 2.7rem;
     border-radius: 50%;
-    background-color: #d9d9d9;
+
+    background-color: #efefef;
+    border: 0.0625rem solid #dbdbdb;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-shrink: 0;
+}
+
+.profile-img i {
+    font-size: 1.5rem;
+    color: #9aa0a6;
 }
 
 .post-image {
@@ -213,7 +225,7 @@ body {
 }
 
 .recommend {
-    width: 20rem;
+    width: 21rem;
     position: fixed;
     right: 20rem;
     top: 2.5rem;
