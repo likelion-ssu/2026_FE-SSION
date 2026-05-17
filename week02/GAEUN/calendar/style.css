@@ -53,3 +53,9 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+.empty {
+    height: 50px;
+}
+
+
