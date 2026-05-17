@@ -117,6 +117,17 @@ body {
     margin-top: 0.8rem;
 }
 
+.icon-count {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.icon-count span {
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
 .left-icons {
     display: flex;
     gap: 1rem;
