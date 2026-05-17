@@ -1,0 +1,48 @@
+main{
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;    
+
+    width: 630px;
+    height: 100%;
+    margin-left: 300px;
+}
+
+.story{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-between;
+
+    width: 612px;
+    height: 108px;
+    padding: 8px 9px;
+}
+
+.story img {
+    width: 75px;
+    height: 89px;
+    object-fit: contain;
+}
+
+.profile1,
+.profile2,
+.profile3,
+.profile4,
+.profile5,
+.profile6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 80px;
+    height: 100px;
+}
+
+.profile-name{
+    color: white;
+    font-size: 12px;
+    margin-top: 4px;
+}
