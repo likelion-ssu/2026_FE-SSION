@@ -1,5 +1,7 @@
 const monthYear = document.getElementById("month-year");
 const calendarBody = document.getElementById("calendar-body");
+const prevBtn = document.getElementById("prev-btn");
+const nextBtn = document.getElementById("next-btn");
 
 let currentDate = new Date(2026, 4, 15);
 
