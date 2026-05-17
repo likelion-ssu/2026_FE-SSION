@@ -17,26 +17,25 @@ function rendercalendar() {
     
     const lastDate = new Date(year, month + 1, 0).getDate();
 
-    let row = document.createElement("tr");
+    let day = 1;
 
-    for (let i = 0; i < firstDay; i++) {
-        let cell = document.createElement("td");
-        row.appendChild(cell);
-    }
+    for (let week = 0; week < 6; week++) {
+        const row = document.createElement("tr");
 
-    for (let day = 1; day <= lastDate; day++) {
-        let cell = document.createElement("td");
-        cell.textContent = day;
+        for (let date = 0; date < 7; date++) {
+            const cell = document.createElement("td");
 
-        row.appendChild(cell);
+            if (week === 0 && date < firstDay) {
+                cell.textContent = "";
+            } else if (day > lastDate) {
+                cell.textContent = "";
+            } else {
+                cell.textContent = day;
+                day++;
+            }
 
-        if ((firstDay + day) % 7 == 0) {
-            calendarBody.appendChild(row);
-            row = document.createElement("tr");
+            row.appendChild(cell);
         }
-    }
-
-    if (row.children.length > 0) {
         calendarBody.appendChild(row);
     }
 }
