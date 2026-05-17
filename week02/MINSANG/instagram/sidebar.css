@@ -1,0 +1,49 @@
+body{
+    background-color: black;
+}
+
+#sidebar{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 72px;         
+    height: 100%;       
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    gap: 12px;
+    padding: 12px;
+    padding-top: 8px;
+    padding-bottom:20px;
+}
+
+#sidebar img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain; 
+}
+
+.logo,
+.home,
+.reels,
+.messages,
+.search,
+.explore,
+.alarm,
+.make,
+.profile,
+.menu,
+.meta {
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    width: 48px;
+    height: 48px;
+    padding: 12px;
+    margin: 4px 0px;
+}
