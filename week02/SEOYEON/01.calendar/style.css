@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.calendar{
+    width: 420px;
+}
+
+.top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    margin-bottom: 20px;
+}
+
+.day, .date{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.day div, .date div{
+    border: 1px solid #ccc;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.day div{
+    font-weight: bold;
+}
