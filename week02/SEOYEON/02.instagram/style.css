@@ -97,6 +97,27 @@ body{
 
 .post-header{
     padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post-header img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-time{
+    color: gray;
+    font-weight: normal;
+}
+
+.post-header .bi-three-dots{
+    margin-left: auto;
 }
 
 .post-image{
@@ -118,10 +139,38 @@ body{
 
 .post-icons{
     padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.post-icons .bi-bookmark{
+    margin-left: auto;
+}
+
+.post-like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.post-like img{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    center;
+    object-fit: cover;
 }
 
 .post-content{
     font-size: 14px;
+}
+
+.post-content span{
+    font-weight: bold;
+    margin-right: 5px;
 }
 
 /* 오른쪽 추천 영역 */
@@ -149,6 +198,13 @@ body{
     flex-direction: column;
     flex: 1;
     margin-left: 10px;
+    font-weight: bold;
+}
+
+.right-top-profile .txt{
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
 }
 
 /* 추천 헤더 */
@@ -156,8 +212,8 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
-    color: gray;
     font-size: 14px;
+    font-weight: bold;
 }
 
 /* 추천 유저 */
@@ -179,6 +235,13 @@ body{
     flex: 1;
     margin-left: 10px;
     font-size: 13px;
+    font-weight: bold;
+}
+
+.right-bottom-detail-ex .txt{
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
 }
 
 .txt{
