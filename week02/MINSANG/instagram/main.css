@@ -6,24 +6,18 @@ main{
 
     width: 630px;
     height: 100%;
-    margin-left: 300px;
+    margin-left: 500px;
 }
 
 .story{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-between;
+    justify-content: space-between;
 
-    width: 612px;
-    height: 108px;
+    width: 630px;
+    height: 123px;
     padding: 8px 9px;
-}
-
-.story img {
-    width: 75px;
-    height: 89px;
-    object-fit: contain;
 }
 
 .profile1,
@@ -31,18 +25,137 @@ main{
 .profile3,
 .profile4,
 .profile5,
-.profile6{
+.profile6 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    width: 80px;
-    height: 100px;
+    width: 90px;
+    height: 102px;
+}
+
+.story img {
+    width: 89px;
+    height: 89px;
+    object-fit: contain;
 }
 
 .profile-name{
     color: white;
     font-size: 12px;
     margin-top: 4px;
+}
+
+.post{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    justify-content: center;
+
+    width: 630px;
+    height: 950px;
+}
+
+.postup{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 470px;
+    height: 44px;
+    padding-left: 14px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+}
+
+.postup1 img {
+    width: 41px;
+    height: 41px;
+    object-fit: contain;
+}
+
+.postup2{
+    width: 370px;
+    height: 18px;
+    padding-left: 8px;
+}
+
+.postup3 img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.postup p1 {
+    color: white;
+    font-size: 14px;
+}
+
+.postup p2 {
+    color: gray;
+    font-size: 12px;
+}
+
+.postimg img {
+    width: 470px;
+    height: 580px;
+    align-items: center;
+    object-fit: contain;
+}
+
+.postdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 470px;
+    height: 40px;
+    padding: 0px 12px ;
+}
+
+.postdown img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    margin-right: 12px;
+}
+
+.postdown1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 223px;
+    height: 40px;
+}
+
+.postdown2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+
+    width: 223px;
+    height: 40px;
+}
+
+.postment{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    width: 470px;
+    height: 36px;
+    padding: 0px 12px ;
+    
+}
+.postment p {
+    margin: 0px;
+    padding: 2px;
+    color: white;
+    font-size: 14px;
 }
