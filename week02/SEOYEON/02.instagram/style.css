@@ -13,7 +13,7 @@ body{
 /* 전체 레이아웃 */
 .container{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 /* 왼쪽 사이드바 */
@@ -21,7 +21,7 @@ body{
     width: 250px;
     height: 100vh;
     border-right: 1px solid #262626;
-    padding: 20px;
+    padding: 20px 20px 20px 10px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -31,6 +31,8 @@ body{
 
 .left-top{
     margin-bottom: 30px;
+    padding-left: 12px;
+    font-size: 18px;
 }
 
 .logo{
@@ -46,6 +48,7 @@ body{
     margin-bottom: 5px;
     border-radius: 10px;
     cursor: pointer;
+    font-size: 18px;
 }
 
 .navigation:hover{
