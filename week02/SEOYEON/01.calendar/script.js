@@ -32,6 +32,15 @@ function drawCalendar(){
 
         date.appendChild(day);
     }
+
+    // 뒤 빈칸 채우기
+    let total = firstDay + lastDate;
+    let remain = 42 - total;
+
+    for(let i = 0; i < remain; i++){
+        let empty = document.createElement("div");
+        date.appendChild(empty);
+    }
 }
 
 drawCalendar();
