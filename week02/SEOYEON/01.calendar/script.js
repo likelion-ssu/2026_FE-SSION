@@ -54,3 +54,14 @@ function drawCalendar(){
 }
 
 drawCalendar();
+
+// 이전 달, 다음 달 버튼 클릭 이벤트
+document.getElementById("prev").addEventListener("click", function(){
+    now.setMonth(now.getMonth() - 1);
+    drawCalendar();
+});
+
+document.getElementById("next").addEventListener("click", function(){
+    now.setMonth(now.getMonth() + 1);
+    drawCalendar();
+});
