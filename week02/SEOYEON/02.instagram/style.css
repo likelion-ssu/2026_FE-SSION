@@ -62,7 +62,7 @@ body{
 
 /* 가운데 메인 */
 #center{
-    width: 630px;
+    width: 650px;
     padding: 30px 80px;
 }
 
@@ -83,10 +83,10 @@ body{
 }
 
 .center-top-detail img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     border-radius: 50%;
-    border: 3px solid hotpink;
+    border: 3.5px solid #ff0191;
 }
 
 /* 게시글 */
