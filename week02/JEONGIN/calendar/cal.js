@@ -45,7 +45,7 @@ prevBtn.addEventListener("click", () => {
 nextBtn.addEventListener("click", () => {
     currentMonth++;
 
-    if (currentMonth > 12) {
+    if (currentMonth > 11) {
         currentMonth = 0;
         currentYear++;
     }
