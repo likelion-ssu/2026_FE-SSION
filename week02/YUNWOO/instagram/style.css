@@ -167,3 +167,55 @@ body {
 .caption {
     margin-top: 8px;
 }
+
+/* 오른쪽 추천 영역 */
+
+.rightbar {
+    padding: 40px 24px;
+    font-size: 14px;
+}
+
+.my-profile,
+.recommend-header,
+.recommend-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.profile-info img {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info p {
+    margin: 4px 0 0;
+
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.rightbar a {
+    color: #0095f6;
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.recommend-header p {
+    color: #8e8e8e;
+    font-weight: bold;
+}
