@@ -45,3 +45,46 @@ body {
 .profile-icon {
     border-radius: 50%;
 }
+
+.feed {
+    width: 630px;
+
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+.stories {
+    display: flex;
+
+    gap: 18px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #dbdbdb;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.story img {
+    width: 66px;
+    height: 66px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 2px solid hotpink;
+
+    padding: 2px;
+}
+
+.story p {
+    margin-top: 8px;
+}
