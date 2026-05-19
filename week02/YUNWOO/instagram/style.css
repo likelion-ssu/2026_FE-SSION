@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: white;
     color: black;
-    font-family: Arial, sans-serif;
+    font-family: 'Pretendard', sans-serif;
 }
 
 .instagram {
@@ -76,7 +76,7 @@ body {
 }
 
 .feed p {
-    margin: 3px 0;
+    margin: 5px 0;
 }
 .stories {
     display: flex;
@@ -169,6 +169,7 @@ body {
     justify-content: space-between;
 
     margin-top: 14px;
+    margin-bottom: 10px;
 }
 
 .left-icons {
