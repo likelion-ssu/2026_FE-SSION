@@ -5,7 +5,7 @@ import Recommend from "./components/Recommend";
 
 function App() {
   return (
-    <div className="h-screen overflow-hidden bg-white text-[#111]">
+    <div className="h-screen overflow-hidden bg-white font-sans text-[#111]">
       <Sidebar />
 
       <main className="ml-[19rem] w-[41rem] pt-6">
