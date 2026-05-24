@@ -1,7 +1,19 @@
+import Sidebar from "./components/Sidebar";
+import Stories from "./components/Stories";
+import Post from "./components/Post";
+import Recommend from "./components/Recommend";
+
 function App() {
   return (
-    <div className="flex h-screen items-center justify-center bg-black text-3xl text-orange-500">
-      Instagram Feed Refactoring
+    <div className="h-screen overflow-hidden bg-white text-[#111]">
+      <Sidebar />
+
+      <main className="ml-[19rem] w-[41rem] pt-6">
+        <Stories />
+        <Post />
+      </main>
+
+      <Recommend />
     </div>
   );
 }
