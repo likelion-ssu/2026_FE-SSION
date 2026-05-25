@@ -13,6 +13,8 @@ import otherImg from "./assets/other.png";
 import Story from "./Story.jsx";
 import Me from "./Me.jsx";
 import Rmd from "./Rmd.jsx";
+import Center from "./Center.jsx";
+import mainImg from "./assets/main.png";
 
 function App() {
   return(
@@ -38,7 +40,7 @@ function App() {
       </div>
 
       {/* 중앙 */}
-      <div className="w-1/2 h-screen">
+      <div className="w-1/2 h-screen flex flex-col items-center">
         <div className="flex h-1/6 border-b border-gray-300 mx-20">
           <Story img={profileImg} text={"하이"} />
           <Story img={profileImg} text={"하이"} />
@@ -49,15 +51,15 @@ function App() {
           <Story img={profileImg} text={"하이"} />
           <Story img={profileImg} text={"하이"} />
         </div>
-        <div>
-          {/* 메인글 */}
+        <div className="flex items-center justify-center mt-10">
+          <Center img={mainImg} />
         </div>
       </div>
 
       {/* 우측 */}
       <div>
         <Me img={profileImg} text={"jxxi.0457"} subtext={"팔로우"} marginY="my-15" textColor="text-blue-600" />
-        <div>
+        <div className="my-1">
           <span className="text-gray-500 m-1">회원님을 위한 추천</span>
           <strong className="text-gray-500 ml-65">모두 보기</strong>
         </div>
