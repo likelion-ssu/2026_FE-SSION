@@ -32,7 +32,9 @@ function Post() {
         <p className="mt-2 w-full text-[0.9rem]">
           <strong>always_kia_tigers</strong>
           <i className="fa-solid fa-circle-check mx-1 text-[0.7rem] text-[#0095f6]"></i>
+          <span className="font-[400]">
           승리의 마지막 아웃카운트는 박정우의 손에!
+          </span>
         </p>
       </div>
     </section>
