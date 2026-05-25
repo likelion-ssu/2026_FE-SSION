@@ -13,7 +13,7 @@ function Feed() {
             <div className="flex flex-col items-center">
                 <div className="w-117.5 h-11 flex flex-row justify-start p-[0px 10px 12px 14px]">
                     <div className="w-11 h-8">
-                        <img src={profile} alt="기본프로필" className="w-full h-full object-cover"/>
+                        <img src={profile} alt="기본프로필" className="w-8 h-8 object-cover"/>
                     </div>
                     <div className="w-92.5 h-4.5">
                         <p className="text-sm font-semibold leading-8">HABIN 2일</p>
