@@ -12,11 +12,11 @@ function RecommendUser({ id, name }) {
       <ProfileImage />
 
       <div>
-        <p className="m-0 font-bold">{id}</p>
-        <p className="m-0 mt-1 text-[0.9rem] text-gray-500">{name}</p>
+        <p className="m-0 text-[1rem] font-[700] text-[#262626]">{id}</p>
+        <p className="m-0 mt-1 text-[0.9rem] font-normal text-[#737373]">{name}</p>
       </div>
 
-      <a href="#" className="ml-auto text-[0.8rem] font-bold text-[#0095f6] no-underline">
+      <a href="#" className="ml-auto text-[0.8rem] font-[700] text-[#0095f6] no-underline">
         팔로우
       </a>
     </div>
@@ -37,18 +37,18 @@ function Recommend() {
         <ProfileImage />
 
         <div>
-          <p className="m-0 font-bold">oeuniey</p>
-          <p className="m-0 mt-1 text-[0.9rem] text-gray-500">가은</p>
+          <p className="m-0 text-[1rem] font-[800] text-[#262626]">oeuniey</p>
+          <p className="m-0 mt-1 text-[0.9rem] font-normal text-[#737373]">가은</p>
         </div>
 
-        <a href="#" className="ml-auto text-[0.8rem] font-bold text-[#0095f6] no-underline">
+        <a href="#" className="ml-auto text-[0.8rem] font-[800] text-[#0095f6] no-underline">
           전환
         </a>
       </div>
 
       <div className="mb-4 mt-8 flex justify-between text-[0.9rem]">
-        <span className="font-bold text-[#737373]">회원님을 위한 추천</span>
-        <strong>모두 보기</strong>
+        <span className="font-[800] text-[#737373]">회원님을 위한 추천</span>
+        <span className="font-[800] text-[#262626]">모두 보기</span>
       </div>
 
       {users.map((user) => (
