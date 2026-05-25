@@ -2,9 +2,9 @@ import profile from "./assets/profile.jpeg";
 
 function Story({name}) {
   return (
-    <div className="flex flex-col items-center space-y-1 min-w-[72px]">
-      <div className="p-[2px] bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 rounded-full">
-        <div className="p-[2px] bg-white rounded-full">
+    <div className="flex flex-col items-center space-y-1 min-w-18">
+      <div className="p-0.5 bg-gradient-to-tr from-yellow-500 via-red-500 to-purple-600 rounded-full">
+        <div className="p-0.5 bg-white rounded-full">
           <img 
             src={profile} 
             alt={name} 
