@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* 전체 레이아웃 */
+.container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+/* 왼쪽 사이드바 */
+#left{
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid #262626;
+    padding: 20px 20px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.left-top{
+    margin-bottom: 30px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.logo{
+    width: 120px;
+}
+
+/* 메뉴 공통 */
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navigation:hover{
+    background-color: #1a1a1a;
+}
+
+.nav-img{
+    width: 24px;
+    height: 24px;
+}
+
+/* 가운데 메인 */
+#center{
+    width: 650px;
+    padding: 30px 80px;
+}
+
+/* 스토리 영역 */
+#center-top{
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    margin-bottom: 30px;
+}
+
+.center-top-detail{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+}
+
+.center-top-detail img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3.5px solid #ff0191;
+}
+
+/* 게시글 */
+.post{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.post-header{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.post-header img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.post-time{
+    color: gray;
+    font-weight: normal;
+}
+
+.post-header .bi-three-dots{
+    margin-left: auto;
+}
+
+.post-image{
+    height: 500px;
+    background-color: #222;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.post-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.post-icons{
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+}
+
+.post-icons .bi-bookmark{
+    margin-left: auto;
+}
+
+.post-like{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.post-like img{
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    center;
+    object-fit: cover;
+}
+
+.post-content{
+    font-size: 14px;
+}
+
+.post-content .post-username{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+/* 오른쪽 추천 영역 */
+#right{
+    width: 350px;
+    padding: 30px 20px;
+}
+
+/* 내 프로필 */
+#right-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+#right-top img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.right-top-profile{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.right-top-profile .txt{
+    font-size: 14px;
+    font-weight: normal;
+    color: gray;
+}
+
+/* 추천 헤더 */
+#right-center{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* 추천 유저 */
+.right-bottom-detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right-bottom-detail img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.right-bottom-detail-ex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.right-bottom-detail-ex .txt{
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+}
+
+.txt{
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
