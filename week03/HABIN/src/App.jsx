@@ -1,8 +1,8 @@
-import Story from "./Story";
+import StoryTray from "./StoryTray";
 
 function App() {
   return (
-    
+      <StoryTray />
   );
 }
 
