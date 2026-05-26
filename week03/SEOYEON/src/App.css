@@ -48,29 +48,6 @@
     height: 24px;
 }
 
-/* 스토리 영역 */
-#center-top{
-    display: flex;
-    gap: 20px;
-    overflow-x: auto;
-    margin-bottom: 30px;
-}
-
-.center-top-detail{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 8px;
-    font-size: 12px;
-}
-
-.center-top-detail img{
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    border: 3.5px solid #ff0191;
-}
-
 /* 추천 유저 */
 .right-bottom-detail{
     display: flex;
