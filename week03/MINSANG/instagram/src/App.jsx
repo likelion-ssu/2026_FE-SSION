@@ -4,7 +4,7 @@ import Recommendation from './Recommendation';
 
 export default function App() {
     return (
-        <div className="bg-black text-white min-h-screen">
+        <div className="bg-black text-white flex flex-row justify-between">
           <Sidebar/>
           <Feed/>
           <Recommendation/> 

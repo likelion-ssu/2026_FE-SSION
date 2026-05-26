@@ -4,7 +4,7 @@ export default function Story({ storyprofile , name }) {
             <img
                 src={storyprofile}
                 alt="profile"
-                className="w-11 h-11"
+                className="w-15 h-15"
             />
             <span className="text-sm font-medium">{name}</span>
         </div>  

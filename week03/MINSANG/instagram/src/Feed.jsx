@@ -12,7 +12,7 @@ import bookmark from './assets/bookmark.png';
 
 export default function Feed() {
     return (
-        <main className='flex flex-col items-center w-[470px] p-6 ml-[320px] gap-6'>
+        <main className='flex flex-col items-center w-[470px] p-6 ml-[300px] gap-6'>
             <div className="flex flex-row justify-between">
                 <Story storyprofile={storyprofile} name="minttkd_1"></Story>
                 <Story storyprofile={storyprofile} name="minttkd_2"></Story>
