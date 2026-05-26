@@ -4,7 +4,7 @@ import profile from "./assets/storyprofile.png";
 
 export default function Recommendation() {
     return (
-        <div className="flex flex-col w-[350px] p-6 mt-4 gap-2">
+        <div className="flex flex-col w-[370px] p-6 mt-4 gap-2">
             <RecommendUser profileImg={profile} id="minttkd_" subText="차민상" buttonText="전환"></RecommendUser>
             <div className="flex items-center justify-between ">
                 <span className="text-xs px-2">회원님을 위한 추천</span>
