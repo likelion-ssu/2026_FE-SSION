@@ -14,7 +14,7 @@ import meta from "./assets/meta.png";
 
 export default function Sidebar() {
     return (
-          <aside className="fixed left-0 top-0 h-screen w-64 p-6 flex flex-col justify-between">
+          <aside className="fixed left-0 top-0 h-screen w-46 p-3 flex flex-col justify-between">
             <div>
               <SidebarItem icon={logo} text="" />
             </div>
