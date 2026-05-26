@@ -1,6 +1,7 @@
 import "./App.css"
 import Sidebar from "./components/Sidebar";
 import Story from "./components/Story";
+import Recommend from "./components/Recommend";
 
 function App() {
     return (
@@ -59,30 +60,22 @@ function App() {
                 </div>
 
                 <div id="right-bottom">
-                    <div className="right-bottom-detail">
-                        <img src="/src/assets/wdohwan.png" alt="wdohwan" />
-                        <div className="right-bottom-detail-ex">
-                            <span>wdohwan</span>
-                            <span className="txt">yy_0n0님 외 7명이 팔로우합니다</span>
-                        </div>
-                        <span className="txt">팔로우</span>
-                    </div>
-                    <div className="right-bottom-detail">
-                        <img src="/src/assets/pampermoony.png" alt="pampermoony" />
-                        <div className="right-bottom-detail-ex">
-                            <span>pampermoony</span>
-                            <span className="txt">yy_0n0님 외 2명이 팔로우합니다</span>
-                        </div>
-                        <span className="txt">팔로우</span>
-                    </div>
-                    <div className="right-bottom-detail">
-                        <img src="/src/assets/ssodam.png" alt="ssodam" />
-                        <div className="right-bottom-detail-ex">
-                            <span>ssodam_xoxo</span>
-                            <span className="txt">frog님 외 1명이 팔로우합니다</span>
-                        </div>
-                        <span className="txt">팔로우</span>
-                    </div>
+                    {/* 계정 추천 */}
+                    <Recommend
+                        image="/src/assets/wdohwan.png"
+                        username="wdohwan"
+                        followInfo="yy_0n0님 외 7명이 팔로우합니다"
+                    />
+                    <Recommend
+                        image="/src/assets/pampermoony.png"
+                        username="pampermoony"
+                        followInfo="yy_0n0님 외 2명이 팔로우합니다"
+                    />
+                    <Recommend
+                        image="/src/assets/ssodam.png"
+                        username="ssodam_xoxo"
+                        followInfo="frog님 외 1명이 팔로우합니다"
+                    />  
                 </div>
             </div>
         </div>
