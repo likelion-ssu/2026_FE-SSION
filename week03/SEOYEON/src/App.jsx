@@ -3,6 +3,10 @@ import Sidebar from "./components/Sidebar";
 import Story from "./components/Story";
 import Recommend from "./components/Recommend";
 
+import wdohwanImg from "./assets/wdohwan.png";
+import pampermoonyImg from "./assets/pampermoony.png";
+import ssodamImg from "./assets/ssodam.png";
+
 function App() {
     return (
         <div className="container">
@@ -62,17 +66,17 @@ function App() {
                 <div id="right-bottom">
                     {/* 계정 추천 */}
                     <Recommend
-                        image="/src/assets/wdohwan.png"
+                        image={wdohwanImg}
                         username="wdohwan"
                         followInfo="yy_0n0님 외 7명이 팔로우합니다"
                     />
                     <Recommend
-                        image="/src/assets/pampermoony.png"
+                        image={pampermoonyImg}
                         username="pampermoony"
                         followInfo="yy_0n0님 외 2명이 팔로우합니다"
                     />
                     <Recommend
-                        image="/src/assets/ssodam.png"
+                        image={ssodamImg}
                         username="ssodam_xoxo"
                         followInfo="frog님 외 1명이 팔로우합니다"
                     />  
