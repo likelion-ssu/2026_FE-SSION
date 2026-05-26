@@ -1,24 +1,29 @@
+import profileImg from "../assets/profile.png";
+import leeunImg from "../assets/leeun.png";
+import likelionImg from "../assets/likelion.png";
+import globalmediaImg from "../assets/globalmedia.png";
+
 function Story() {
     return (
         <div id="center-top">
             <div className="center-top-detail">
-                <img src="/src/assets/profile.png" alt="profile" />
+                <img src={profileImg} alt="profile" />
                 <span>seo_ye0n4</span>
             </div>
             <div className="center-top-detail">
-                <img src="/src/assets/profile.png" alt="profile" />
+                <img src={profileImg} alt="profile" />
                 <span>odooou4</span>
             </div>
             <div className="center-top-detail">
-                <img src="/src/assets/leeun.png" alt="leeun" />
+                <img src={leeunImg} alt="leeun" />
                 <span>leeun04</span>
             </div>
             <div className="center-top-detail">
-                <img src="/src/assets/likelion.png" alt="likelion" />
+                <img src={likelionImg} alt="likelion" />
                 <span>likelion_ssu</span>
             </div>
             <div className="center-top-detail">
-                <img src="/src/assets/globalmedia.png" alt="globalmedia" />
+                <img src={globalmediaImg} alt="globalmedia" />
                 <span>ssu_globalmedia</span>
             </div>
         </div>
