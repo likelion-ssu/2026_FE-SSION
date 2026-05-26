@@ -9,38 +9,38 @@ import ssodamImg from "./assets/ssodam.png";
 
 function App() {
     return (
-        <div className="container">
+        <div className="flex justify-start bg-black text-white font-sans">
             <Sidebar></Sidebar>
 
             {/* 가운데 메인 피드 */}
-            <div id="center">
+            <div className="w-[650px] px-[80px] py-[30px]">
                 <Story></Story>
 
                 {/* 게시글 */}
                 <div id="center-bottom">
-                    <div className="post">
-                            <div className="post-header">
-                                <img src="/src/assets/cutepets.png" alt="cutepets" />
+                    <div className="mb-10 w-full">
+                            <div className="flex items-center gap-2.5 py-[15px] text-sm font-bold">
+                                <img className="h-8 w-8 rounded-full object-cover" src="/src/assets/cutepets.png" alt="cutepets" />
                                 <span>bonnie.cutepets</span>
-                                <span className="post-time">• 6시간</span>
-                                <i className="bi bi-three-dots"></i>
+                                <span className="font-normal text-gray-500">• 6시간</span>
+                                <i className="bi bi-three-dots ml-auto"></i>
                             </div>
-                        <div className="post-image">
-                            <img src="/src/assets/post-image.png" alt="post" />
+                        <div className="flex h-[500px] items-center justify-center overflow-hidden rounded-[5px] bg-[#222]">
+                            <img className="block h-full w-full object-cover" src="/src/assets/post-image.png" alt="post" />
                         </div>
-                        <div className="post-icons">
+                        <div className="flex items-center gap-[15px] py-[15px] text-[22px]">
                             <i className="bi bi-heart"></i>
                             <i className="bi bi-chat"></i>
                             <i className="bi bi-arrow-left-right"></i>
                             <i className="bi bi-send"></i>
-                            <i className="bi bi-bookmark"></i>
+                            <i className="bi bi-bookmark ml-auto"></i>
                         </div>
-                        <div className="post-like">
-                            <img src="/src/assets/profile.png" alt="profile" />
+                        <div className="flex items-center gap-2.5 pb-2.5">
+                            <img className="h-[17px] w-[17px] rounded-full object-cover" src="/src/assets/profile.png" alt="profile" />
                             <span>seo_ye0n4님 여러 명이 좋아합니다</span>
                         </div>
-                        <div className="post-content">
-                            <span className="post-username">bonnie.cutepets</span>
+                        <div className="text-sm">
+                            <span className="mr-[5px] font-bold">bonnie.cutepets</span>
                             <span>New pet (now it’s not afraid of me anymore)#CutePetDebutPlan #Puppy #dogbaby</span>
                         </div>
                     </div>
@@ -48,17 +48,17 @@ function App() {
             </div>
 
             {/* 오른쪽 추천 영역 */}
-            <div id="right">
-                <div id="right-top">
-                    <img src="/src/assets/profile.png" alt="profile" />
-                    <div className="right-top-profile">
+            <div className="w-[350px] px-5 py-[30px]">
+                <div className="mb-[25px] flex items-center justify-between">
+                    <img className="h-[45px] w-[45px] rounded-full" src="/src/assets/profile.png" alt="profile" />
+                    <div className="ml-2.5 flex flex-1 flex-col font-bold">
                         <span>seo_ye0n4</span>
-                        <span className="txt">박서연</span>
+                        <span className="text-sm font-normal text-gray-500">박서연</span>
                     </div>
-                    <span className="txt">전환</span>
+                    <span className="cursor-pointer text-xs font-bold text-[#0095f6]">전환</span>
                 </div>
 
-                <div id="right-center">
+                <div className="mb-5 flex justify-between text-sm font-bold">
                     <span>회원님을 위한 추천</span>
                     <span>모두 보기</span>
                 </div>
