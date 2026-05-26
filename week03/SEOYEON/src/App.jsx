@@ -9,26 +9,27 @@ import ssodamImg from "./assets/ssodam.png";
 
 function App() {
     return (
-        <div className="flex justify-start bg-black text-white font-sans">
-            <Sidebar></Sidebar>
+        <div className="flex min-h-screen justify-start bg-black text-white font-sans">
+            <Sidebar />
 
             {/* 가운데 메인 피드 */}
-            <div className="w-[650px] px-[80px] py-[30px]">
-                <Story></Story>
+            <div className="ml-[90px] w-[560px] shrink-0 py-[30px]">
+                <div className="w-full">
+                <Story />
 
                 {/* 게시글 */}
                 <div id="center-bottom">
                     <div className="mb-10 w-full">
-                            <div className="flex items-center gap-2.5 py-[15px] text-sm font-bold">
+                            <div className="flex w-[560px] items-center gap-2.5 py-[15px] text-sm font-bold">
                                 <img className="h-8 w-8 rounded-full object-cover" src="/src/assets/cutepets.png" alt="cutepets" />
                                 <span>bonnie.cutepets</span>
                                 <span className="font-normal text-gray-500">• 6시간</span>
                                 <i className="bi bi-three-dots ml-auto"></i>
                             </div>
-                        <div className="flex h-[500px] items-center justify-center overflow-hidden rounded-[5px] bg-[#222]">
+                        <div className="flex h-[500px] w-[560px] items-center justify-center overflow-hidden rounded-[5px] bg-[#222]">
                             <img className="block h-full w-full object-cover" src="/src/assets/post-image.png" alt="post" />
                         </div>
-                        <div className="flex items-center gap-[15px] py-[15px] text-[22px]">
+                        <div className="flex w-[560px] items-center gap-[15px] py-[15px] text-[22px]">
                             <i className="bi bi-heart"></i>
                             <i className="bi bi-chat"></i>
                             <i className="bi bi-arrow-left-right"></i>
@@ -45,10 +46,11 @@ function App() {
                         </div>
                     </div>
                 </div>
+                </div>
             </div>
 
             {/* 오른쪽 추천 영역 */}
-            <div className="w-[350px] px-5 py-[30px]">
+            <div className="ml-[90px] w-[350px] shrink-0 py-[30px]">
                 <div className="mb-[25px] flex items-center justify-between">
                     <img className="h-[45px] w-[45px] rounded-full" src="/src/assets/profile.png" alt="profile" />
                     <div className="ml-2.5 flex flex-1 flex-col font-bold">
