@@ -2,7 +2,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="grid min-h-screen grid-cols-[240px_1fr_320px] bg-white text-black">
+    <div className="grid min-h-screen w-full grid-cols-[240px_1fr_320px] bg-white text-black">
       <aside className="sticky top-0 border-r border-[#dbdbdb] px-5 py-8">
         <div className="mb-10">
           <img src="/assets/logo.png" alt="logo" className="w-[120px]" />
@@ -29,6 +29,30 @@ function App() {
               <img src="/assets/reels.png" alt="" className="h-6 w-6" />
               <span>릴스</span>
             </a>
+
+            <a href="#" className="flex items-center gap-4">
+              <img src="/assets/message.png" alt="" className="h-6 w-6" />
+              <span>메시지</span>
+            </a>
+
+            <a href="#" className="flex items-center gap-4">
+              <img src="/assets/heart.png" alt="" className="h-6 w-6" />
+              <span>알림</span>
+            </a>
+
+            <a href="#" className="flex items-center gap-4">
+              <img src="/assets/create.png" alt="" className="h-6 w-6" />
+              <span>만들기</span>
+            </a>
+
+            <a href="#" className="flex items-center gap-4">
+              <img
+                src="/assets/profile.jpg"
+                alt=""
+                className="h-6 w-6 rounded-full object-cover"
+              />
+              <span>프로필</span>
+            </a>
           </div>
 
           <div className="mt-auto mb-[60px] flex flex-col gap-[30px]">
@@ -45,7 +69,7 @@ function App() {
         </nav>
       </aside>
 
-      <main className="mx-auto w-[630px] pt-[30px]">
+      <main className="mx-auto w-[470px] pt-[30px]">
         <section className="flex gap-[18px] border-b border-[#dbdbdb] py-5">
           <div className="flex flex-col items-center text-[12px]">
             <img
@@ -66,9 +90,49 @@ function App() {
 
             <p className="mt-2">gogumii2</p>
           </div>
+
+          <div className="flex flex-col items-center text-[12px]">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-[66px] w-[66px] rounded-full border-2 border-pink-500 p-[2px] object-cover"
+            />
+
+            <p className="mt-2">gogumii3</p>
+          </div>
+
+          <div className="flex flex-col items-center text-[12px]">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-[66px] w-[66px] rounded-full border-2 border-pink-500 p-[2px] object-cover"
+            />
+
+            <p className="mt-2">gogumii4</p>
+          </div>
+
+          <div className="flex flex-col items-center text-[12px]">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-[66px] w-[66px] rounded-full border-2 border-pink-500 p-[2px] object-cover"
+            />
+
+            <p className="mt-2">gogumii5</p>
+          </div>
+
+          <div className="flex flex-col items-center text-[12px]">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-[66px] w-[66px] rounded-full border-2 border-pink-500 p-[2px] object-cover"
+            />
+
+            <p className="mt-2">gogumii6</p>
+          </div>
         </section>
 
-        <div className="mt-[30px] pb-5">
+        <div className="mt-[30px] pb-5 text-left">
           <div className="mb-[14px] flex items-center justify-between">
             <div className="flex items-center gap-[10px]">
               <img
@@ -131,8 +195,55 @@ function App() {
         </div>
       </main>
 
-      <aside className="px-6 py-10">
-        <p className="font-bold">오른쪽 바</p>
+      <aside className="sticky top-0 h-screen w-[320px] px-6 py-10 text-[14px]">
+        <div className="mb-6 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-11 w-11 rounded-full object-cover"
+            />
+
+            <div>
+              <strong>gogumiiiii</strong>
+              <p className="mt-1 text-[12px] text-[#8e8e8e]">gogumii</p>
+            </div>
+          </div>
+
+          <a href="#" className="shrink-0 text-[12px] font-bold text-[#0095f6]">
+            전환
+          </a>
+        </div>
+
+        <div className="mb-6 flex items-center justify-between">
+          <p className="font-bold text-[#8e8e8e]">회원님을 위한 추천</p>
+
+          <a href="#" className="text-[12px] font-bold">
+            모두 보기
+          </a>
+        </div>
+
+        <div className="mb-6 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <img
+              src="/assets/profile.jpg"
+              alt=""
+              className="h-11 w-11 rounded-full object-cover"
+            />
+
+            <div>
+              <strong>recommend_person1</strong>
+
+              <p className="mt-1 text-[12px] text-[#8e8e8e]">
+                gogumii1 외 19명이 팔로우합니다
+              </p>
+            </div>
+          </div>
+
+          <a href="#" className="shrink-0 text-[12px] font-bold text-[#0095f6]">
+            팔로우
+          </a>
+        </div>
       </aside>
     </div>
   );
