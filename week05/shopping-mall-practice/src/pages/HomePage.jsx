@@ -4,7 +4,8 @@ import LoadingMessage from '../components/LoadingMessage'
 import ProductList from '../components/ProductList'
 
 function HomePage() {
-  // setProducts는 API 수업에서 response.data.products를 저장할 때 사용합니다.
+  // setProducts는 상품 데이터를 저장할 때 사용합니다.
+  // 아랫줄 주석은 eslint 방지용이에요
   // eslint-disable-next-line no-unused-vars
   const [products, setProducts] = useState([])
   const [isLoading, setIsLoading] = useState(false)
