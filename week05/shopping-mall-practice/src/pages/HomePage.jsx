@@ -17,7 +17,7 @@ function HomePage() {
     // TODO: productApi.js의 getProducts 함수를 호출하세요.
     // TODO: 응답으로 받은 상품 배열을 setProducts로 저장하세요.
     // TODO: 에러가 발생하면 setError에 에러 메시지를 저장하세요.
-    // API 응답 예시: { products: [{ id, title, price, thumbnail }] }
+    // API 응답 예시: { products: [{ id, title, description, category, price, rating, stock, availabilityStatus, thumbnail }] }
 
     setIsLoading(false)
   }
