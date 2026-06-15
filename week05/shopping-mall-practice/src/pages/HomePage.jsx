@@ -23,11 +23,11 @@ function HomePage() {
     setIsLoading(false)
   }
 
+
   useEffect(() => {
-    // TODO: axios를 사용해서 상품 목록을 불러오고 products state에 저장하세요.
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    loadProducts()
-  }, [])
+    // TODO: axios를 사용해서 상품 목록을 불러오고 products state에 저장하세요
+  }, []);
+
 
   return (
     <section className="space-y-6">
