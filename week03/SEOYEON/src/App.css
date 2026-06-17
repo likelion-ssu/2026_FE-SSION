@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 왼쪽 사이드바 */
+#left{
+    width: 250px;
+    height: 100vh;
+    border-right: 1px solid #262626;
+    padding: 20px 20px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+}
+
+.left-top{
+    margin-bottom: 30px;
+    padding-left: 12px;
+    font-size: 18px;
+}
+
+.logo{
+    width: 120px;
+}
+
+/* 메뉴 공통 */
+.navigation{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 12px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navigation:hover{
+    background-color: #1a1a1a;
+}
+
+.nav-img{
+    width: 24px;
+    height: 24px;
+}
+
+/* 추천 유저 */
+.right-bottom-detail{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.right-bottom-detail img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.right-bottom-detail-ex{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.right-bottom-detail-ex .txt{
+    font-size: 12px;
+    color: gray;
+    font-weight: normal;
+}
+
+.txt{
+    color: #0095f6;
+    font-size: 12px;
+    font-weight: bold;
+    cursor: pointer;
+}
