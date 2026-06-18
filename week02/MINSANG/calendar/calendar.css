@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 10px;
+}
+.calendar {
+    margin: 50px auto;
+    width: 100%;
+    max-width: 320px;
+    padding: 15px 0;
+    border: 1px solid black;
+}
+.calendar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-bottom: 15px;
+    color:black;
+    font-size: 1.8em;
+}
+
+.calendar-body {
+    padding: 0 20px;
+}
+.calendar-body .days {
+    margin-bottom: 10px;
+}
+.calendar-body .days,
+.calendar-body .dates {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5em;
+}
+.calendar-body .days .day,
+.calendar-body .dates .date {
+    width: 14.28%;
+    text-align: center;
+}
+.calendar-body .dates .date {
+    padding: 5px;
+    text-align: center;
+}
+.calendar-body .dates .date span {
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+}
+
+.calendar-body .days .day:nth-child(1),
+.calendar-body .dates .date:nth-child(7n+1) span {
+    color: red;
+}
+
+.calendar-body .days .day:nth-child(7),
+.calendar-body .dates .date:nth-child(7n) span {
+    color: blue;
+}
