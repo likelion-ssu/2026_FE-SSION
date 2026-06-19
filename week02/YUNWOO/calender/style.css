@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    background: ivory;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.calendar {
+    background-color: white;
+    padding: 8px 30px 36px 30px;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+th,
+td {
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.calendar-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
