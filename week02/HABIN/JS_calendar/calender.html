@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calender</title>
+    <link rel="stylesheet" href="calender.css">
+    <script src="calender.js"></script>
+</head>
+<body>
+    <div class="calendar">
+        <div class="header">
+            <button onclick="prevMonth()">◀</button>
+            <h2 id="current-month"></h2>
+            <button onclick="nextMonth()">▶</button>
+        </div>
+        <div class="weekdays">
+            <div>일</div>
+            <div>월</div>
+            <div>화</div>
+            <div>수</div>
+            <div>목</div>
+            <div>금</div>
+            <div>토</div>
+        </div>
+        <div class="days" id="calendar-days"></div>
+    </div>
+</body>
+</html>

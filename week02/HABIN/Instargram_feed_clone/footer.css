@@ -1,0 +1,88 @@
+.footer{
+    width: 383px;
+    height: 855px;
+    padding: 0 0 0 64px;
+}
+.footer_information{
+    width: 391px;
+    height: 548px;
+    margin: 36px 0 0;
+}
+.my_account{
+    width: 319px;
+    height: 44px;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.my_account img{
+    width: 44px;
+    height: 44px;
+}
+.switch {
+    font-size: 12px;
+    color: #3143e3
+}
+.my_account_name{
+    width: 198.23px;
+    height: 38px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    row-gap: 2px;
+    font-size: 14px;
+}
+.recommend_friend{
+    width: 319px;
+    height: 351px;
+    margin: 24px 0 8px;
+}
+.recommend{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    width: 319px;
+    height: 19px;
+    padding: 4px 16px;
+}
+#recommend_text1{
+    font-size: 14px;
+    width: 242.29px;
+    height: 11px;
+}
+#recommend_text2{
+    font-size: 12px;
+}
+.footer_information_list{
+    width: 287px;
+    height: 351px;
+    margin: 0 16px;
+}
+.recommend_friend_list{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 315px;
+    height: 316px;
+    padding: 8px 0px;
+}
+.recommend_friends{
+    width: 315px;
+    height: 60px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.recommend_friends img{
+    width: 44px;
+    height: 44px;
+}
+.Instargram_information{
+
+}

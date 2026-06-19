@@ -1,0 +1,138 @@
+.main {
+    margin-top: 16px;
+}
+.story_tray {
+    padding: 8px 9px;
+    margin-bottom: 20px;
+}
+.story{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 612px;
+    height: 108px;
+    gap: 20px;
+}
+.story img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    outline: 2px solid rgb(235, 81, 63);
+    object-fit: cover;
+}
+.story p {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+.story0 {
+    padding: 0%;
+    margin: 0%;
+}
+.story1 {
+    padding: 0%;
+    margin: 0%;
+}
+.story2 {
+    padding: 0%;
+    margin: 0%;
+}
+.story3 {
+    padding: 0%;
+    margin: 0%;
+}
+.story4 {
+    padding: 0%;
+    margin: 0%;
+}
+.story5 {
+    padding: 0%;
+    margin: 0%;
+}
+.story6 {
+    padding: 0%;
+    margin: 0%;
+}
+.feed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_information {
+    width: 470px;
+    height: 44px;
+    padding: 0px 10px 12px 14px;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+}
+.user_profile {
+    width: 44px;
+    height: 32px;
+}
+.user_profile img {
+    width: 32px;
+    height: 32px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 0.8px solid #fff;
+    outline: 0.8px solid rgb(235, 81, 63);
+}
+.feed_image {
+    width: 468px;
+    height: 624px;
+}
+
+.feed_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.user_name {
+    width: 370px;
+    height: 18px;
+}
+.user_name p {
+    line-height: 32px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.user_menu {
+    align-items: center;
+}
+.user_menu img{
+    width: 24px;
+    height: 24px;
+}
+.feed_content_reaction{
+    width: 470px;
+    height: 92px;
+    padding: 0px 12px;
+}
+.feed_reaction{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 446px;
+    height: 40px;
+    margin: 4px;
+}
+.feed_reaction img{
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+}
+.feed_reaction_left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 223px;
+    height: 40px;
+}
+.feed_reaction_right{
+    margin-left: 167px;
+}
