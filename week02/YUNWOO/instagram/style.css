@@ -1,0 +1,277 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: black;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.instagram {
+    display: grid;
+    grid-template-columns: 240px 1fr 320px;
+    min-height: 100vh;
+}
+
+.sidebar {
+    border-right: 1px solid #dbdbdb;
+    padding: 30px 20px;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.logo {
+    margin-bottom: 40px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+
+    height: 90vh;
+}
+
+.top-menu {
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.bottom-menu {
+    margin-top: auto;
+    margin-bottom: 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 30px;
+}
+
+.menu a {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    color: black;
+    text-decoration: none;
+}
+
+.menu img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+}
+
+.profile-icon {
+    border-radius: 50%;
+}
+
+.feed {
+    width: 630px;
+
+    margin: 0 auto;
+
+    padding-top: 30px;
+}
+
+.feed p {
+    margin: 5px 0;
+}
+.stories {
+    display: flex;
+
+    gap: 18px;
+
+    padding: 20px 0;
+
+    border-bottom: 1px solid #dbdbdb;
+
+    margin-left: -30px;
+    margin-right: -30px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: 12px;
+}
+
+.story img {
+    width: 66px;
+    height: 66px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+
+    border: 2px solid hotpink;
+
+    padding: 2px;
+}
+
+.story p {
+    margin-top: 8px;
+}
+
+.post {
+    width: 100%;
+
+    margin-top: 30px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 14px;
+}
+
+.post-user {
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+}
+
+.post-user img {
+    width: 36px;
+    height: 36px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.post-user div {
+    display: flex;
+    flex-direction: column;
+}
+
+.post-user span {
+    font-size: 12px;
+    color: gray;
+}
+
+.post-image {
+    width: 100%;
+
+    border-radius: 4px;
+
+    object-fit: cover;
+}
+
+.post-actions {
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+
+.left-icons {
+    display: flex;
+    gap: 16px;
+}
+
+.post-actions img {
+    width: 24px;
+    height: 24px;
+
+    object-fit: cover;
+}
+
+.likes {
+    margin-top: 12px;
+
+    font-weight: bold;
+}
+
+.caption {
+    margin-top: 8px;
+}
+
+.rightbar {
+    padding: 40px 24px;
+    font-size: 14px;
+}
+
+.my-profile,
+.recommend-header,
+.recommend-user {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 24px;
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+}
+
+.profile-info img {
+    width: 44px;
+    height: 44px;
+
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile-info p {
+    margin: 4px 0 0;
+
+    color: #8e8e8e;
+    font-size: 12px;
+}
+
+.rightbar a {
+    color: #0095f6;
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.recommend-header p {
+    color: #8e8e8e;
+    font-weight: bold;
+}
+
+.feed {
+    max-width: 470px;
+}
+
+.post {
+    padding-bottom: 20px;
+}
+
+.post-image {
+    max-height: 580px;
+}
+
+.sidebar {
+    position: sticky;
+    top: 0;
+}
+
+.rightbar {
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+button,
+a {
+    cursor: pointer;
+}
+
+img {
+    display: block;
+}
